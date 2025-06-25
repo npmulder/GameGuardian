@@ -45,11 +45,11 @@ In today's digital world, children spend significant time gaming across multiple
 
 | Platform | Status | Features |
 |----------|--------|----------|
-| 🎮 **Steam** | ✅ Full Support | Session monitoring, purchase control, friend management |
-| 🎮 **Xbox Live** | ✅ Full Support | Game tracking, Microsoft Store integration, achievements |
-| 🎮 **PlayStation** | ✅ Full Support | PSN integration, Remote Play monitoring, store purchases |
-| 🎮 **Nintendo** | ✅ Full Support | Switch monitoring, eShop controls, parental integration |
-| 📱 **iOS/Android** | ✅ Full Support | App Store/Play Store integration, screen time APIs |
+| 🎮 **Steam** | 🚧 Full Support | Session monitoring, purchase control, friend management |
+| 🎮 **Xbox Live** | 🚧 Full Support | Game tracking, Microsoft Store integration, achievements |
+| 🎮 **PlayStation** | 🚧 Full Support | PSN integration, Remote Play monitoring, store purchases |
+| 🎮 **Nintendo** | 🚧 Full Support | Switch monitoring, eShop controls, parental integration |
+| 📱 **iOS/Android** | 🚧 Full Support | App Store/Play Store integration, screen time APIs |
 | 🖥️ **PC Gaming** | 🚧 In Progress | Epic Games, Origin, Uplay integration |
 
 ## 🏗️ Architecture
@@ -58,8 +58,8 @@ GameGuardian is built with modern, scalable technologies:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                   UNO Platform Apps                        │
-│   📱 Mobile    🖥️ Desktop    🌐 Web/WASM    📺 Smart TV   │
+│                   UNO Platform Apps                         │
+│   📱 Mobile    🖥️ Desktop    🌐 Web/WASM                    │
 └─────────────────────┬───────────────────────────────────────┘
                       │
         ┌─────────────▼─────────────┐
